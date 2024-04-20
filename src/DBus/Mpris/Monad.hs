@@ -51,6 +51,7 @@ import Control.Applicative
 import Control.Concurrent (forkIO)
 import Control.Concurrent.Chan
 import Control.Exception
+import Control.Monad (forever, void, when)
 import Control.Monad.RWS
 import Control.Monad.Reader
 import Data.Default
